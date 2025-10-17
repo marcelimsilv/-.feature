@@ -7,17 +7,18 @@ Funcionalidade: Configurar produto
   Para depois inserir no carrinho
 
   Cenário: Seleção obrigatória de cor, tamanho e quantidade
-    Given que o cliente está na página de configuração do produto
-    When não selecionar cor, tamanho ou quantidade
-    Then deve exibir uma mensagem informando que os campos são obrigatórios
+    Como que o cliente está na página de configuração do produto
+    Quero não selecionar cor, tamanho ou quantidade
+    Para deve exibir uma mensagem informando que os campos são obrigatórios
 
   Cenário: Limite máximo de produtos por venda
-    Given que o cliente selecionou um produto
-    When escolher mais de 10 unidades
-    Then o sistema deve impedir a seleção e exibir a mensagem "Máximo de 10 produtos por venda"
+    Como que o cliente selecionou um produto
+    Quero escolher mais de 10 unidades
+    Para o sistema deve impedir a seleção e exibir a mensagem "Máximo de 10 produtos por venda"
 
   Cenário: Limpar seleção de produto
-    Given que o cliente configurou cor, tamanho e quantidade
-    When clicar no botão "limpar"
-    Then o sistema deve retornar ao estado original sem seleções
+    Como que o cliente configurou cor, tamanho e quantidade
+    Quero clicar no botão "limpar"
+    Para o sistema deve retornar ao estado original sem seleções
+
 
