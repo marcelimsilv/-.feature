@@ -1,11 +1,11 @@
 #language: pt
 
-fucionalidade: Cadastro no checkout
+Fucionalidade: Cadastro no checkout
   Como cliente da EBAC-SHOP
   Quero concluir meu cadastro
   Para finalizar minha compra
 
-  cenário: Validação dos campos obrigatórios
+  Cenário: Validação dos campos obrigatórios
     Como que o cliente está na tela de cadastro
     Quero preencher os campos "<nome>", "<email>" e "<endereco>"
     Para o sistema deve exibir "<mensagem>"
@@ -16,4 +16,5 @@ fucionalidade: Cadastro no checkout
       | Maria     | mariaemail.com        | Rua Azul       | E-mail inválido                           |
 
       | Pedro     |                       | Rua Verde      | Campos obrigatórios não preenchidos       |
+
 
