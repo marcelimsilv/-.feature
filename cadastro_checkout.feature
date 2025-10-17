@@ -1,6 +1,6 @@
 #language: pt
 
-Fucionalidade: Cadastro no checkout
+Funcionalidade: Cadastro no checkout
   Como cliente da EBAC-SHOP
   Quero concluir meu cadastro
   Para finalizar minha compra
@@ -10,11 +10,12 @@ Fucionalidade: Cadastro no checkout
     Quero preencher os campos "<nome>", "<email>" e "<endereco>"
     Para o sistema deve exibir "<mensagem>"
 
-    Exenplos:
+    Exemplos:
       | nome      | email                 | endereco       | mensagem                                  |
       | João      | joao@email.com        | Rua das Flores | Cadastro realizado com sucesso            |
       | Maria     | mariaemail.com        | Rua Azul       | E-mail inválido                           |
 
       | Pedro     |                       | Rua Verde      | Campos obrigatórios não preenchidos       |
+
 
 
