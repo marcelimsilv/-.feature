@@ -10,9 +10,10 @@ fucionalidade: Cadastro no checkout
     Quero preencher os campos "<nome>", "<email>" e "<endereco>"
     Para o sistema deve exibir "<mensagem>"
 
-    Examples:
+    Exenplos:
       | nome      | email                 | endereco       | mensagem                                  |
       | João      | joao@email.com        | Rua das Flores | Cadastro realizado com sucesso            |
       | Maria     | mariaemail.com        | Rua Azul       | E-mail inválido                           |
 
       | Pedro     |                       | Rua Verde      | Campos obrigatórios não preenchidos       |
+
