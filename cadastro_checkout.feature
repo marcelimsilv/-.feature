@@ -1,14 +1,14 @@
 #language: pt
 
 Funcionalidade: Cadastro no checkout
-  Como cliente da EBAC-SHOP
-  Quero concluir meu cadastro
-  Para finalizar minha compra
+  Dado cliente da EBAC-SHOP
+  Quando concluir meu cadastro
+  Então finalizar minha compra
 
   Cenário: Validação dos campos obrigatórios
-    Como que o cliente está na tela de cadastro
-    Quero preencher os campos "<nome>", "<email>" e "<endereco>"
-    Para o sistema deve exibir "<mensagem>"
+    Dado que o cliente está na tela de cadastro
+    Quando preencher os campos "<nome>", "<email>" e "<endereco>"
+    Então o sistema deve exibir "<mensagem>"
 
     Exemplos:
       | nome      | email                 | endereco       | mensagem                                  |
@@ -16,6 +16,7 @@ Funcionalidade: Cadastro no checkout
       | Maria     | mariaemail.com        | Rua Azul       | E-mail inválido                           |
 
       | Pedro     |                       | Rua Verde      | Campos obrigatórios não preenchidos       |
+
 
 
 
