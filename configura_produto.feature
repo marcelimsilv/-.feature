@@ -2,7 +2,7 @@
 
 Funcionalidade: Configurar produto
    Dado que o cliente da EBAC-SHOP
-    Quando configurar meu produto de acordo com meu tamanho e gosto
+    Quando configurar seu produto de acordo com seu tamanho e gosto
    E escolher a quantidade
     Então depois inserir no carrinho
 
@@ -20,6 +20,7 @@ Funcionalidade: Configurar produto
     Dado que o cliente configurou cor, tamanho e quantidade
     Quando clicar no botão "limpar"
     Então o sistema deve retornar ao estado original sem seleções
+
 
 
 
