@@ -3,18 +3,18 @@
 Funcionalidade: Login na plataforma
   Como cliente da EBAC-SHOP
   Quero fazer o login na plataforma
-  Para visualiza meus pedidos
+  Para visualizar meus pedidos
 
-  Cenário: Login com diferentes combinações de credenciais
+  Esquema do Cenário: Login com diferentes combinações de credenciais
     Dado que o cliente está na tela de login
     Quando inserir o usuário "<usuario>" e a senha "<senha>"
-  Então deve exibir "<mensagem>"
+    Então o sistema deve exibir "<mensagem>"
 
     Exemplos:
-      | usuario     | senha     | mensagem                     |
-      | valido      | valido    | Redirecionar para checkout   |
-      | invalido    | valido    | Usuário ou senha inválidos   |
-      | valido      | invalido  | Usuário ou senha inválidos   |
+      | usuario  | senha    | mensagem                   |
+      | valido   | valido   | Redirecionar para checkout |
+      | invalido | valido   | Usuário ou senha inválidos |
+      | valido   | invalido | Usuário ou senha inválidos |
 
 
 
