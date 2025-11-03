@@ -1,9 +1,9 @@
 #language: pt
 
 Funcionalidade: Login na plataforma
-  Dado cliente da EBAC-SHOP
-  Quando fizer o login na plataforma
-  Então visualiza seus pedidos
+  Como cliente da EBAC-SHOP
+  Quero fazer o login na plataforma
+  Para visualiza meus pedidos
 
   Cenário: Login com diferentes combinações de credenciais
     Dado que o cliente está na tela de login
@@ -15,6 +15,7 @@ Funcionalidade: Login na plataforma
       | valido      | valido    | Redirecionar para checkout   |
       | invalido    | valido    | Usuário ou senha inválidos   |
       | valido      | invalido  | Usuário ou senha inválidos   |
+
 
 
 
