@@ -1,10 +1,10 @@
 #laguage: pt
 
 Funcionalidade: Configurar produto
-   Dado que o cliente da EBAC-SHOP
-    Quando configurar seu produto de acordo com seu tamanho e gosto
+   Como cliente da EBAC-SHOP
+    Quero configurar meu produto de acordo com meu tamanho e gosto
    E escolher a quantidade
-    Então depois inserir no carrinho
+    para depois inserir no carrinho
 
   Cenário: Seleção obrigatória de cor, tamanho e quantidade
     Dado que o cliente está na página de configuração do produto
@@ -20,6 +20,7 @@ Funcionalidade: Configurar produto
     Dado que o cliente configurou cor, tamanho e quantidade
     Quando clicar no botão "limpar"
     Então o sistema deve retornar ao estado original sem seleções
+
 
 
 
