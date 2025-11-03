@@ -1,9 +1,9 @@
 #language: pt
 
 Funcionalidade: Cadastro no checkout
-  Dado que o cliente da EBAC-SHOP
-  Quando concluir seu cadastro
-  Então finaliza sua compra
+  Como cliente da EBAC-SHOP
+  Quero concluir meu cadastro
+  Para finaliza minha compra
 
   Cenário: Validação dos campos obrigatórios
     Dado que o cliente está na tela de cadastro
@@ -16,6 +16,7 @@ Funcionalidade: Cadastro no checkout
       | Maria     | mariaemail.com        | Rua Azul       | E-mail inválido                           |
 
       | Pedro     |                       | Rua Verde      | Campos obrigatórios não preenchidos       |
+
 
 
 
